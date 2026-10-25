@@ -13,3 +13,6 @@ export interface ChainResult {
   isHold: boolean
   riskVerdict: "PASS" | "WARN" | "HOLD" | "BLOCK" | "ERROR" | "CHECKING"
 }
+
+export type Screen = "marketplace" | "upload" | "detail" | "dashboard" | "checkout" | "certificate"
+export type LicenseType = "standard" | "exclusive"

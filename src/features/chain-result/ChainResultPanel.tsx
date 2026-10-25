@@ -1,7 +1,7 @@
 import { useState } from "react"
-import { THRESHOLD } from "./constants"
-import type { ChainResult, RejectReason } from "./domain"
-import { NETWORK } from "./network"
+import { THRESHOLD } from "../../shared/config/constants"
+import type { ChainResult, RejectReason } from "../../shared/types/domain"
+import { NETWORK } from "../../shared/config/network"
 
 const REJECT_MESSAGES: Record<RejectReason, {
   title: string
